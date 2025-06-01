@@ -47,7 +47,7 @@ import lions from './assets/education_logo/lions.png';
 
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import aiImage from './assets/work_logo/ai2.png';
 
 export const SkillsInfo = [
   {
@@ -177,7 +177,16 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-   
+       {
+      id: 6,
+      title: "Ai Article Summarizer Extension",
+      description:
+        "This AI Article Summarizer Extension is built with HTML, CSS, and JavaScript, seamlessly integrating with Google Gemini AI. Designed with a striking squircle UI, it features a modern blue-black gradient background, crisp white text, and a dynamic gradient heading. The project highlights strong UI/UX principles, requiring a Gemini API key for use.",
+      image: aiImage,
+      tags: ["API", "Gemini Api", "CSS", "Javascript"],
+       github: "https://github.com/RakeshMahatoo/AI-Summary-Extractor.git",
+      // webapp: "https://imagsearch.netlify.app/",
+    },
     {
       id: 7,
       title: "Image Search App",
