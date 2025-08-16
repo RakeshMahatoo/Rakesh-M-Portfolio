@@ -48,6 +48,7 @@ import lions from './assets/education_logo/lions.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import aiImage from './assets/work_logo/ai2.png';
+import typing from './assets/work_logo/typing.png';
 
 export const SkillsInfo = [
   {
@@ -206,5 +207,15 @@ export const SkillsInfo = [
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       // github: "https://github.com/codingmastr/Image-Background-Remover",
       webapp: "https://removeyourbg.netlify.app/",
+    },
+    {
+      id: 9,
+      title: "Typing Test Pro",
+      description:
+        "A typing test application built with React.js that allows users to practice and improve their typing skills. The app features various typing tests, real-time feedback, and performance tracking.",
+      image: typing,
+      tags: ["API", "Typing Test", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/RakeshMahatoo/Typing-Speed-Test.git",
+      webapp: "https://typingprotest.netlify.app/",
     },
   ];  
