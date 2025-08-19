@@ -49,6 +49,7 @@ import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import aiImage from './assets/work_logo/ai2.png';
 import typing from './assets/work_logo/typing.png';
+import quicksign from './assets/work_logo/quicksign.png';
 
 export const SkillsInfo = [
   {
@@ -217,5 +218,15 @@ export const SkillsInfo = [
       tags: ["API", "Typing Test", "HTML", "CSS", "Javascript"],
       github: "https://github.com/RakeshMahatoo/Typing-Speed-Test.git",
       webapp: "https://typingprotest.netlify.app/",
+    },
+      {
+      id: 10,
+      title: "quick sign",
+      description:
+        "A quick sign application built with javaScript that allows users to sign documents electronically. The app features a user-friendly interface, real-time collaboration, and secure document storage.",
+      image: quicksign,
+      tags: ["API", "Document Signing", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/RakeshMahatoo/quickSign.git",
+      webapp: "https://quicksignpen.netlify.app/",
     },
   ];  
